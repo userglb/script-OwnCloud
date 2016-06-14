@@ -64,9 +64,6 @@ def main():
     #clau = getpass.getpass(prompt='Introdueix la clau: ')
     clau = 'passwd'
     oc.login(id, clau)
-    #except:
-     #   print "Error de conexió"    
-      #  sys.exit(0)
     print "Connexió creada amb èxit!"
     log.info("> S'ha establert connexió amb l'usuari: " + id )
     #oc.mkdir('testdir2')
