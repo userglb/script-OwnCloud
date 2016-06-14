@@ -6,7 +6,8 @@ __date__ = "01/06/2016"
 try:
     import sys
     import owncloud
-    import os, time
+    import os
+    import time
     import getpass
     import logging
     import logging.handlers
